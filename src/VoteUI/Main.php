@@ -24,7 +24,7 @@ class Main extends PluginBase implements Listener {
 
 	public function onEnable(){
 		$this->getLogger()->info("§aEnable Plugin VoteUI ");
-		$this->getLogger()->info("Plugin by amlxp, Use the votereward that I made");
+		$this->getLogger()->info("Plugin by amlxp, Use the votereward that I made. Thanks");
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->eco = $this->getServer()->getPluginManager()->getPlugin("EconomyAPI");
 	}
