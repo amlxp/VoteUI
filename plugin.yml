@@ -1,0 +1,10 @@
+name: VoteUI
+version: 1.0.0
+main: VoteUI\Main
+api: 3.11.3
+author: amlxp
+description: VoteUI by AmlxP Modz
+commands:
+ vote:
+  description: "Vote for get rewards"
+  aliases: [voteui, voteserver, votereward]
