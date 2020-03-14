@@ -6,7 +6,7 @@ Plugin PMMP VoteUI For Server Minecraft PE/BE
 
 
 ## INFO (INDONESIA)
-*// === INDONESIA === \\*
+* // === INDONESIA === \\ *
 Terimakasih telah extract ini plugin, Jangan lupa
 Menggunakan VoteReward yang saya telah edit.
 Untuk Plugin ini menjadi bekerja.
