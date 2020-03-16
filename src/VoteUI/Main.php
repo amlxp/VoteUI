@@ -24,7 +24,7 @@ class Main extends PluginBase implements Listener {
 
 	public function onEnable(){
 		$this->getLogger()->info("§aEnable Plugin VoteUI ");
-		$this->getLogger()->info("Plugin by amlxp, Use the votereward that I made. Thanks");
+		$this->getLogger()->info("Plugin by amlxp, Use the votereward that I made");
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->eco = $this->getServer()->getPluginManager()->getPlugin("EconomyAPI");
 	}
@@ -57,8 +57,8 @@ class Main extends PluginBase implements Listener {
         $name = $sender->getName();
         $form->setTitle("§7- Vote -");
         $form->setContent("§7Hello players, §c{$name} §7Vote this server for get rewards");
-        $form->addButton("§4EXIT\n§ftap to close");
-		$form->addButton("§dVote Server\n§fGet Rewards");
+        $form->addButton("§4EXIT\n§ftap to close", 0, "textures/ui/redX1");
+		$form->addButton("§dVote Server\n§fGet Rewards", 0, "textures/ui/accessibility_glyph_color");
         $form->sendToPlayer($sender);
 	}
 	
